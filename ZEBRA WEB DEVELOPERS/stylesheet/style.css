@@ -1,0 +1,120 @@
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+.page-1 {
+    background-color: #EFFBFF;
+
+}
+
+.box-2 {
+    text-align: center;
+}
+a:active {
+    color: blue;
+}
+a:hover {
+    color: gold;
+}
+.page-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.page-6 {
+    background-color:#EFFBFF ;
+
+}
+.box-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+.box-3{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #000000;
+        border: 1px solid #000000;
+        width: 340px;
+        padding: 10px;
+        text-align: center ;
+        border-radius: 10px;
+}
+
+.news-input{
+
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4 -10px -10px -15px #FFF;
+
+}
+
+.form-box input{
+    font-size: 18px;
+    color: #000;
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+.form-box button{
+    color: #FFF;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-box button:hover{
+    background: #c7c4c4;
+}

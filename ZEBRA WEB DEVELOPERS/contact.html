@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/ad5ee2711d.js" crossorigin="anonymous"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Zebra Web Developers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="page-6">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Zebra Web Developers</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="service.html">Services</a></li>
+                  <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="pricing.html">Price & Booking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!---SHOWCASE-->
+
+      <tbody>
+          <h3 class="text-center p-3">SELECT CONTACT OPTION</h3>
+          <p class="text-center text-dark p-4"><em>Enlisted are contact options' made available on this page. As to make inquiries about.
+            Please by clicking on any link, it will automatically redirect you to links in which you can reach us, to provide services. 
+            
+            <span class="text-primary">"Let's build your profession, by adding professional confidence to your business domain"</span>
+            by
+            <span class="text-primary">"Eugene Tobore Okojie"</span>
+            Contact Us Today !. Thank You. </em></p>
+      </tbody>
+
+
+<!---LIST-->
+
+<section>
+   <div class="text-center p-5">
+    <ul class="list-group">
+        <li class="list-group-item">Book an Appointment.</li>
+      
+        <li class="list-group-item list-group-item-primary">email-us</li>
+        <li class="list-group-item list-group-item-secondary">Click on the What's App Icon below to contact us.</li>
+        <li class="list-group-item list-group-item-success">Can use our Twitter Handle.</li>
+        <li class="list-group-item list-group-item-danger">Can message us with Facebook.</li>
+      </ul>  
+   </div>
+</section>
+
+<!---Form Section-->
+<tbody>
+    <div>
+        <p class="text-center"><em>You can fill out the comment form, and leave us a comment in the comment form section below.</em></p>
+    </div>
+
+    <div class="p-5">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <button type="button" class="btn btn-outline-primary">submit</button>
+          </div>
+    </div>
+</tbody>
+
+
+      <!--CONTACT AND MAP-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+           <div>
+               <h4>Contact Info</h4>
+               <ul class="list-group list-group-flush mt-4">
+                <li class="list-group-item">
+                    <span class="fw-bold">Main Location:</span> Universiti Putra Malaysia, UPM.
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Address:</span> JALAN UNIVERSITI 1 Serdang, 43400 Seri Kembangan, Selangor.
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Telephone:</span> +(60)-16302-9730.
+                </li>
+                <li class="list-group-item">
+                  email:<span class="fw-bold"> <a href="mailto: eugene_okojie@yahoo.com"></span> eugene@zebrawebdevelopers.com</a>    
+                </li>
+                </ul>                
+           </div>
+          </div>
+          <div class="col">
+            <div>
+                <h4 class="text-center"></h4>
+                <div id="map" class="mb-5 mt-5" style='width: 500px; height: 400px;'></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!--WHATSAPP-->
+        <div class="whatsapp_float whatsapp-icon">
+
+            <a href="https://wa.me/60163029730" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+          </div>
+      <div class="">
+      
+      </div>
+       
+
+
+        <div class="text-center">
+            <a href="home.html">Return to Home Page</a>
+          </div>
+
+<!---FOOTER-->
+<footer class="p-1 bg-dark text-white text-center position-relative">
+    <div class="container">
+
+        <p class="">|This is a registered trademark and &copy; for | |"Zebra Web & Software Developers"| A Web & Software
+        Development Company| </p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-1"><i class="bi bi-arrow-up-circle h4"></i></a>
+        
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidG9ib3JlOTkiLCJhIjoiY2t5MW50cWEzMDg4eDJwbnlneGN3em5ndyJ9.xfUf48cuOF-YDDuAI0n7Ow';
+const map = new mapboxgl.Map({
+container: 'map', 
+style: 'mapbox://styles/mapbox/streets-v11', 
+center: [103.637490, 1.559580],
+zoom: 18,
+});
+
+    </script>
+</body>
+</html>
